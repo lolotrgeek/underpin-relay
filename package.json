@@ -1,0 +1,33 @@
+{
+  "name": "underpin-relay",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^11.0.0",
+    "@libp2p/bootstrap": "^5.0.0",
+    "@libp2p/mplex": "^7.0.0",
+    "@libp2p/pubsub-peer-discovery": "^8.0.2",
+    "@libp2p/webrtc-direct": "^5.0.0",
+    "@libp2p/webrtc-star": "^6.0.0",
+    "@libp2p/webrtc-star-signalling-server": "^3.0.0",
+    "get-port": "^6.1.2",
+    "ipfs": "^0.66.0",
+    "ipfs-log": "^6.0.0",
+    "ipfs-repo-migrations": "^15.0.0",
+    "libp2p": "^0.43.2",
+    "orbit-db": "^0.29.0",
+    "wrtc": "^0.4.7"
+  },
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.8"
+  },
+  "engines": {
+    "node": "18.4.0"
+  }
+}
